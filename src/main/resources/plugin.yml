@@ -1,0 +1,8 @@
+name: Kotlinplugin
+version: 1.0
+main: com.rcallum.KotlinPlugin.Main
+author: Callum703
+description: This project is to quickly place millions of blocks with Kotlin in spigot.
+commands:
+  start:
+    description: Start Command 3 args L,H,W
