@@ -12,7 +12,7 @@ blocks and then create a git repository and lemme know!
 Have fun,
 Hopefully you'll learn a lot about minecraft itself in these two days."
 
-*Highest performace Tests were done with 6gb of RAM (on server) and on a Ryzen 5 2600 (Note: Neither were bottlenecked)
+*Highest performace Tests were done with 6gb of RAM (on server) and on a Ryzen 5 2600
 
 Method I used was setting chunk sections to blocks, through NMS
 I managed to get around 8 million blocks per second at my peak, which took just over 2 seconds to place all 10 million blocks
