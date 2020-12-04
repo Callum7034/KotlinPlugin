@@ -10,7 +10,7 @@ class Main : JavaPlugin() {
     {
         Bukkit.getConsoleSender().sendMessage("Enabling Kotlin Plugin")
         Bukkit.getConsoleSender().sendMessage("${this.description.name} v${this.description.version} was loaded successfully.")
-        Bukkit.getServer().getPluginCommand("start").setExecutor(StartCommand())
+        Bukkit.getServer().getPluginCommand("start")?.setExecutor(StartCommand())
     }
 
     override fun onDisable()

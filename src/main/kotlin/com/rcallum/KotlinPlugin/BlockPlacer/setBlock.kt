@@ -12,7 +12,7 @@ class setBlock {
         for (a in 0..length){
             for (b in 0..width){
                 for (c in 0..height){
-                    setBlock(location.clone().add(a.toDouble(), b.toDouble(), c.toDouble()), Material.STONE)
+                    setBlock(location.clone().add(a.toDouble(), c.toDouble(), b.toDouble()), Material.STONE)
                 }
             }
 
